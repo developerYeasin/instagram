@@ -3,8 +3,6 @@ import React from "react";
 const NotificationIcon = () => {
   return (
     <svg
-      aria-label="Activity Feed"
-      class="_8-yf5 "
       color="#262626"
       fill="#262626"
       height="24"

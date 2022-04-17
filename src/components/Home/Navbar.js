@@ -21,7 +21,6 @@ const Navbar = () => {
           {!show && (
             <svg
               aria-label="Search"
-              class="_8-yf5 "
               color="#8e8e8e"
               fill="#8e8e8e"
               height="16"
@@ -33,16 +32,16 @@ const Navbar = () => {
                 d="M19 10.5A8.5 8.5 0 1110.5 2a8.5 8.5 0 018.5 8.5z"
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
               ></path>
               <line
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 x1="16.511"
                 x2="22"
                 y1="16.511"
@@ -98,10 +97,16 @@ const NavContainer = styled.div`
   background: #fff;
   padding: 8px 0;
   box-shadow: 0 0 1px 0 #111111a3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 `;
 const Container = styled.div`
   width: 100%;
   max-width: 975px;
+  padding: 0 20px;
+  height: 48px;
   margin: auto;
   display: flex;
   justify-content: space-between;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const InboxIcon = () => {
+const SaveIcon = () => {
   return (
     <svg
       color="#262626"
@@ -10,20 +10,11 @@ const InboxIcon = () => {
       viewBox="0 0 24 24"
       width="24"
     >
-      <line
-        fill="none"
-        stroke="currentColor"
-        strokeLinejoin="round"
-        strokeWidth="2"
-        x1="22"
-        x2="9.218"
-        y1="3"
-        y2="10.083"
-      ></line>
       <polygon
         fill="none"
-        points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+        points="20 21 12 13.44 4 21 4 3 20 3 20 21"
         stroke="currentColor"
+        strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="2"
       ></polygon>
@@ -31,4 +22,4 @@ const InboxIcon = () => {
   );
 };
 
-export default InboxIcon;
+export default SaveIcon;
