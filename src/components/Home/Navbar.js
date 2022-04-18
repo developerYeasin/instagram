@@ -101,6 +101,7 @@ const NavContainer = styled.div`
   top: 0;
   left: 0;
   right: 0;
+  z-index: 99999;
 `;
 const Container = styled.div`
   width: 100%;
@@ -164,6 +165,17 @@ const NavMenu = styled.ul`
       width: 24px;
       border-radius: 50%;
     }
+  }
+  @media (max-width: 768px) {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 `;
 

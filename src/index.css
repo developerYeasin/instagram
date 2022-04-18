@@ -42,3 +42,30 @@ ul {
   background: transparent;
   box-sizing: border-box;
 }
+
+.slick-next {
+  right: 11px !important;
+  z-index: 99;
+}
+.slick-prev {
+  left: 7px !important;
+  z-index: 99;
+}
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 0;
+  display: none;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 22px !important;
+  line-height: 0 !important;
+  opacity: 1 !important;
+  color: #fff !important;
+  box-shadow: 0 0 15px 0 #111 !important;
+  border-radius: 50% !important;
+  background: #00000040;
+}

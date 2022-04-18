@@ -1,0 +1,17 @@
+export const stories = [
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+    { img: "./img/user-story.jpg", name: "sarker.arohi", id: "10" },
+  ];
